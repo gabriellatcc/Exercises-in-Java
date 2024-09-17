@@ -1,9 +1,10 @@
+package main;
 import java.util.Scanner;
-public class Calculation
+public class Main
 {
     private int num1,num2,sum;
     private Scanner e;
-        public Calculation()
+        public Main()
         {
             num1=num2=0;
             e=new Scanner(System.in);
@@ -23,11 +24,11 @@ public class Calculation
         {
             System.out.println("Sum of num1 and num2: "+sum);
         }
-        public static void main(String[] args) 
-        {
-        Calculation object01=new Calculation();
-        object01.readValues();
-        object01.sumCalculation();
-        object01.printSum();
-        }
+    public static void main(String[] args)
+    {
+        Main test01=new Main();
+        test01.readValues();
+        test01.sumCalculation();
+        test01.printSum();
+    }  
 }

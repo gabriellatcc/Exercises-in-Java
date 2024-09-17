@@ -1,9 +1,10 @@
+package main;
 import java.util.Scanner;
-public class Calculator
+public class Main
 {
     private double num1,num2,result;
     private Scanner e;
-        public Calculator()
+        public Main()
         {
             num1=num2=result=0;
             e=new Scanner(System.in);
@@ -38,7 +39,7 @@ public class Calculator
         }
         public static void main(String[] args)
         {
-            Calculator test01=new Calculator();
+            Main test01=new Main();
             test01.readValues();
             test01.sumCalculation();
             test01.printResult();
@@ -50,4 +51,3 @@ public class Calculator
             test01.printResult();
         }
 }
-

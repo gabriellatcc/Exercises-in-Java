@@ -1,5 +1,6 @@
+package main;
 import java.util.Scanner;
-public class Example
+public class Main
 {
     public static void main(String[] args)
     {
@@ -10,4 +11,5 @@ public class Example
         System.out.println("Value entered: "+value+".\n");
         System.out.printf("Value entered: %d.\n",value);
     }
+    
 }
